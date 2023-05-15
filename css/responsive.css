@@ -1,0 +1,30 @@
+@media screen  and (max-width:1000px) and (max-height:650px){
+    /* body{
+        background:red;
+    } */
+    nav{
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul{
+        padding: 0;
+    }
+    header{
+        height:18vh;
+    }
+    .search{
+        padding: 0;
+    }
+    .slider{
+        height: 23vh;
+    }
+}
+@media screen  and (max-height:400px){
+    header{
+        height: 30vh;
+    }
+}

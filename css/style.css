@@ -1,0 +1,142 @@
+
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+header{
+    padding-top: 7px;
+    position:static;
+    height: 10vh;
+    background-color:#19A7CE
+    
+}
+    
+nav ul{
+    
+    padding: 20px 100px 20px 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav ul li{
+    padding-right: 50px;
+    list-style: none;
+    padding: 0px 5px;;
+}
+
+nav ul li a{
+    padding-left: 10px;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    color:white
+}
+nav{
+    display: flex;
+}
+
+.search input{
+    padding: 5px 20px;
+    margin-right: 20px;
+    height:22px;
+    width:40rem;
+    border-radius: 10px;  
+}
+
+img{
+    border-radius:20px;
+    border: 5px solid #212A3E;
+
+}
+
+.search{
+    padding: 0 80px;    
+    display: flex;
+    align-items: center;
+}
+
+
+nav ul li a:hover{
+    transition-duration: 200ms;
+    color: rgb(54, 20, 123);
+}
+
+.fas:hover{
+    transition-duration: 300ms;
+    transform: scale(2);
+
+}
+
+.slider{
+    overflow:hidden;
+    margin:12px auto;
+    max-width:82vw;
+}
+.card{
+    margin:auto;
+    width:80vw;
+}
+.card-item{
+    width: 11vw;;
+    display: inline-flex;
+    flex-direction: column;
+    margin: 5px 15px;
+}
+.lines
+{
+    text-align: center;
+}
+/* .container{
+    overflow: hidden;
+
+} */
+
+/* Scroolbar */
+
+::-webkit-scrollbar {
+    width: 20px;
+  }
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+::-webkit-scrollbar-thumb {
+    background-color: #386c7e;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+}
+
+.cards{
+    margin: 6px;
+    display: flex;
+    overflow: scroll;
+}
+
+
+footer{
+    font-family: 'Roboto Mono', monospace;
+    height:8vh;
+    width:100vw;
+    background-color: #19A7CE;
+    font-size: 13px;
+}
+
+.middle{
+    margin: 250px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.name{
+    margin: 10px;
+    font-weight: 600;
+}
