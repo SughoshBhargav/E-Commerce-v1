@@ -75,43 +75,41 @@ nav ul li a:hover{
 .slider{
     overflow:hidden;
     margin:12px auto;
-    max-width:82vw;
+    max-width:80vw;
 }
 .card{
     margin:auto;
-    width:80vw;
+    width:78vw;
 }
 .card-item{
     width: 11vw;;
     display: inline-flex;
     flex-direction: column;
     margin: 5px 15px;
+    
 }
 .lines
 {
     text-align: center;
 }
-/* .container{
-    overflow: hidden;
 
-} */
 
-/* Scroolbar */
-
-::-webkit-scrollbar {
-    width: 20px;
-  }
-
-::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
 
 ::-webkit-scrollbar-thumb {
     background-color: #386c7e;
     border-radius: 20px;
     border: 6px solid transparent;
     background-clip: content-box;
+} 
+html {
+    overflow: scroll;
+    overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
 
 .cards{
     margin: 6px;
@@ -119,6 +117,18 @@ nav ul li a:hover{
     overflow: scroll;
 }
 
+hr{
+    margin: 25px;
+}
+
+
+.logoimg{
+    border-radius:20px;
+    border: 3px solid #212A3E;
+    height: 50px;
+    width: 55px;
+    margin-right: 20px;  
+}
 
 footer{
     font-family: 'Roboto Mono', monospace;
@@ -139,4 +149,21 @@ footer{
 .name{
     margin: 10px;
     font-weight: 600;
+}
+
+
+
+
+footer p{
+    text-align: center;
+}
+
+footer i{
+    padding: 10px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+footer i:hover{
+    color: rgb(120, 28, 82);
 }

@@ -4,23 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="https://kit.fontawesome.com/b970073805.js" crossorigin="anonymous"></script>
+
+    <title>Better Buys | Contact</title>
 </head>
 <body>
-   <div class="middle">
-    <div class="name">
-        Contact Us
-    </div>
-    <form>
-        <label for="name">Ne:</label><br>
-        <input style="width: 300px;height: 35px;" type="text" id="name" name="name"><br>
-        <label for="email">Email:</label><br>
-        <input style="width: 300px;height: 35px;" type="email" id="email" name="email"><br>
-        <label for="message">Message:</label><br>
-        <textarea style="width: 300px;height: 35px;" id="message" name="message"></textarea><br><br>
-        <input style="width: 300px;height: 35px;" type="submit" value="Submit">
-    </form>
-   </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contactus.html">ContactUs</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+
+            </ul>
+            <div class="logo">
+                <img class = "logoimg"src="img/logo.jpg" alt="Website Logo" >
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <form action="action_page.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter First Name">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Enter Last Name">
+      
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="india">INDIA</option>
+            <option value="usa">USA</option>
+            <option value="japan">JAPAN</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Query" style="height:200px"></textarea>
+      
+          <input type="button" value="Submit">
+      
+        </form>
+      </div>
+      
+      <footer class="flex-all-center">
+        <footer class="flex-all-center">
+            <p>
+                <i class="ficon fa-brands fa-twitter"></i>
+            <i class="ficon fa-brands fa-github"></i>
+            <i class="fa-brands fa-square-twitter "></i>
+            </p>
+               
+         </footer>
+    </footer>
 </body>
 </html>
