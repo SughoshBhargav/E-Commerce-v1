@@ -1,27 +1,26 @@
+* {
+    margin: 0;
 
-*{
-    margin:0;
-    
-overflow: hidden; 
+    overflow: hidden;
     padding: 0;
 }
 
 
-header{
+header {
     padding-top: 7px;
-    position:static;
+    position: static;
     height: 10vh;
-    background-color:#19A7CE
-    
+    background-color: #19A7CE
 }
-    
 
-nav ul li a:hover{
+
+nav ul li a:hover {
     transition-duration: 200ms;
     color: rgb(54, 20, 123);
 }
-nav ul{
-    
+
+nav ul {
+
     padding: 20px 100px 20px 100px;
     display: flex;
     justify-content: flex-start;
@@ -30,76 +29,85 @@ nav ul{
     font-size: 18px;
 }
 
-nav ul li{
+nav ul li {
     padding-right: 50px;
     list-style: none;
-    padding: 0px 5px;;
+    padding: 0px 5px;
+    
 }
 
-nav ul li a{
+nav ul li a {
     padding-left: 10px;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color:white
+    color: white
 }
-nav{
+
+nav {
     display: flex;
 }
 
 
-.logoimg{
-    border-radius:20px;
+.logoimg {
+    border-radius: 20px;
     border: 3px solid #212A3E;
     height: 50px;
     width: 55px;
-    margin-left:  880px;   
+    margin-left: 880px;
 }
 
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: none /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-form{
+
+.logoimg:hover {
+    transition-duration: 1000ms;
+    transform: rotate(360deg);
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none
+}
+
+form {
     align-items: center;
-   
+
 }
 
-  /* Style the submit button with a specific background color etc */
-  input[type=button] {
+input[type=button] {
     background-color: #b03c3c;
     color: white;
     padding: 12px 20px;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 200px;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=button]:hover {
+}
+
+input[type=button]:hover {
+    transition-duration: 500ms;
     background-color: #45a049;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
+}
+
+.container {
     border-radius: 5px;
-    background-color: #8b86e7;
+    background-color: #E49393;
     padding: 20px;
     width: 500px;
-    margin-top:1% ;
-    margin-left: 34%; }
+    margin-top: 1%;
+    margin-left: 34%;
+}
 
-  
-footer{
+
+footer {
     font-family: 'Roboto Mono', monospace;
-    height:8vh;
-    width:100vw;
+    height: 8vh;
+    width: 100vw;
     background-color: #19A7CE;
     font-size: 13px;
     margin-top: 26px;
@@ -107,17 +115,19 @@ footer{
     display: flex;
 }
 
-footer p{
+footer p {
     margin-left: 720px;
     text-align: center;
 }
 
-footer i{
+footer i {
     padding: 10px;
     font-size: large;
     margin-bottom: 10px;
 }
 
-footer i:hover{
+footer i:hover {
+    transition-duration: 300ms;
+    scale: 1.5;
     color: rgb(120, 28, 82);
 }
