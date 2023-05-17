@@ -12,9 +12,10 @@ header {
     padding-bottom: 71px;
 }
 
+nav ul a.aboutlink,
 nav ul li a:hover {
     transition-duration: 200ms;
-    color: rgb(54, 20, 123);
+    color: rgb(233, 228, 243);
 }
 
 nav ul {
@@ -37,7 +38,7 @@ nav ul li a {
     padding-left: 10px;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color: white
+    color: rgb(21,18,18);
 }
 
 nav {
