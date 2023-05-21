@@ -3,6 +3,16 @@
     padding: 0;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  
+}
+
+main {
+    padding: 20px;
+}
+
 h2 {
     color: #333;
     font-size: 18px;
@@ -62,11 +72,6 @@ nav ul li a {
     padding: 8px;
 }
 
-nav {
-    display: flex;
-}
-
-
 nav ul a.dashboardlink,
 nav ul li a:hover {
     transition-duration: 200ms;
@@ -77,6 +82,10 @@ nav ul li a:hover {
     
 }
 
+
+nav {
+    display: flex;
+}
 
 
 .logoimg {
