@@ -40,6 +40,17 @@ nav {
     display: flex;
 }
 
+nav ul a.homelink,
+nav ul li a:hover {
+    transition-duration: 200ms;
+    color: rgb(233, 228, 243);
+    box-shadow: 2px 2px 5px rgba(241, 244, 247, 0.2);
+    background-color: black;
+    border-radius: 10px;
+    
+    
+}
+
 .search input {
     padding: 5px 20px;
     margin-right: 20px;
@@ -64,16 +75,7 @@ img {
     
 }
 
-nav ul a.homelink,
-nav ul li a:hover {
-    transition-duration: 200ms;
-    color: rgb(233, 228, 243);
-    box-shadow: 2px 2px 5px rgba(241, 244, 247, 0.2);
-    background-color: black;
-    border-radius: 10px;
-    
-    
-}
+
 
 .logoimg{
     transition: transform 0.7s;
