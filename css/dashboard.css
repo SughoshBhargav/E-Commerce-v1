@@ -46,11 +46,7 @@ header {
     background-color: #19A7CE
 }
 
-nav ul a.dashboardlink,
-nav ul li a:hover {
-    transition-duration: 200ms;
-    color: rgb(233, 228, 243);
-}
+
 
 nav ul {
 
@@ -63,7 +59,7 @@ nav ul {
 }
 
 nav ul li {
-    padding-right: 50px;
+    
     list-style: none;
     padding: 0px 5px;
 
@@ -73,7 +69,18 @@ nav ul li a {
     padding-left: 10px;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color: rgb(21, 18, 18);
+    color: rgb(21, 18, 18); 
+    padding: 8px;
+}
+
+nav ul a.dashboardlink,
+nav ul li a:hover {
+    transition-duration: 200ms;
+    color: rgb(233, 228, 243);
+    box-shadow: 2px 2px 5px rgba(241, 244, 247, 0.2);
+    background-color: black;
+    border-radius: 10px;
+    
 }
 
 
@@ -88,12 +95,14 @@ nav {
     height: 50px;
     width: 55px;
     margin-left: 880px;
+    transition: transform 0.7s;
+    
 }
 
 
 .logoimg:hover {
-    transition-duration: 1000ms;
-    transform: rotate(360deg);
+    
+    transform: rotate(180deg);
 }
 
 

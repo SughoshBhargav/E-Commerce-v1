@@ -17,6 +17,9 @@ nav ul a.contactlink,
 nav ul li a:hover {
     transition-duration: 200ms;
     color: rgb(233, 228, 243);
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(241, 244, 247, 0.2);
 }
 
 nav ul {
@@ -41,8 +44,23 @@ nav ul li a {
     font-family: Helvetica, sans-serif;
     text-decoration: none;
     color: rgb(21,18,18);
+    padding: 8px;
 }
 
+.success-container {
+    display: none;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #dff0d8;
+    border: 1px solid #3c763d;
+    color: #3c763d;
+    padding: 10px;
+    z-index: 9999;
+    border-radius: 10px;
+    
+}
 
 nav {
     display: flex;
@@ -55,12 +73,14 @@ nav {
     height: 50px;
     width: 55px;
     margin-left: 880px;
+    transition: transform 0.7s;
+    
 }
 
 
 .logoimg:hover {
-    transition-duration: 1000ms;
-    transform: rotate(360deg);
+    
+    transform: rotate(180deg);
 }
 
 input[type=text],
@@ -81,17 +101,20 @@ form {
 
 }
 
-input[type=button] {
+Button {
     background-color: #b03c3c;
     color: white;
     padding: 12px 20px;
+    margin-bottom: 5px;
     border-radius: 4px;
     cursor: pointer;
     margin-left: 200px;
+    transition: transform 0.5s;
+    border-radius: 10px;
 }
 
-input[type=button]:hover {
-    transition-duration: 500ms;
+textArea+Button:hover {
+    transform:  scale(1.1);
     background-color: #45a049;
 }
 
@@ -100,8 +123,8 @@ input[type=button]:hover {
     background-color: #E49393;
     padding: 20px;
     width: 500px;
-    margin-top: 1%;
-    margin-left: 34%;
+    margin: auto;
+    margin-top: 15px;
 }
 
 
