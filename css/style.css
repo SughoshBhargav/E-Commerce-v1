@@ -4,7 +4,7 @@
 }
 
 header {
-    
+
     padding-top: 7px;
     position: static;
     height: 10vh;
@@ -21,7 +21,7 @@ nav ul {
 
 nav ul li {
 
-    
+
     list-style: none;
     padding: 0px 5px;
 
@@ -31,7 +31,7 @@ nav ul li a {
     padding-left: 10px;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color: rgb(21,18,18);
+    color: rgb(21, 18, 18);
     padding: 8px;
 }
 
@@ -47,8 +47,8 @@ nav ul li a:hover {
     box-shadow: 2px 2px 5px rgba(241, 244, 247, 0.2);
     background-color: black;
     border-radius: 10px;
-    
-    
+
+
 }
 
 .search input {
@@ -66,20 +66,20 @@ img {
 }
 
 .search {
-    
-    
+
+
     padding: 0 70px;
     display: flex;
     align-items: center;
-    
-    
+
+
 }
 
 
 
-.logoimg{
+.logoimg {
     transition: transform 0.7s;
-    
+
 }
 
 
@@ -87,7 +87,7 @@ img {
     transform: rotate(180deg);
 }
 
-.fas{
+.fas {
     transition: transform 0.5s;
 }
 
@@ -98,7 +98,7 @@ img {
 }
 
 .slider {
-    margin: 12px auto;
+    margin: 35px auto;
     max-width: 80vw;
 }
 
@@ -109,14 +109,12 @@ img {
 
 .card-item {
     width: 11vw;
-    ;
-    display: inline-flex;
-    flex-direction: column;
     margin: 5px 15px;
 }
 
 .lines {
     text-align: center;
+    margin: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -129,6 +127,7 @@ img {
 html {
     overflow: scroll;
     overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -146,9 +145,9 @@ hr {
     margin: 25px;
 }
 
-img:hover{
-    
-    transform:scale(1.05);
+img:hover {
+
+    transform: scale(1.05);
 }
 
 
@@ -166,6 +165,7 @@ footer {
     width: 100vw;
     background-color: #19A7CE;
     font-size: 13px;
+    transform: transition 0.5s;
 }
 
 footer p {

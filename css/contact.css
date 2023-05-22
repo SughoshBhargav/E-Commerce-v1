@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-html{
+html {
     overflow: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -37,30 +38,34 @@ nav ul li {
     padding-right: 50px;
     list-style: none;
     padding: 0px 5px;
-    
+
 }
 
 nav ul li a {
     padding-left: 10px;
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color: rgb(21,18,18);
+    color: rgb(21, 18, 18);
     padding: 8px;
 }
 
 .success-container {
     display: none;
     position: fixed;
-    top: 10px;
+    top: 7px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #dff0d8;
     border: 1px solid #3c763d;
     color: #3c763d;
     padding: 10px;
-    z-index: 9999;
-    border-radius: 10px;
-    
+    border-radius: 15px;
+
+}
+
+.success-container p {
+
+    align-items: center;
 }
 
 nav {
@@ -75,12 +80,12 @@ nav {
     width: 55px;
     margin-left: 880px;
     transition: transform 0.7s;
-    
+
 }
 
 
 .logoimg:hover {
-    
+
     transform: rotate(180deg);
 }
 
@@ -115,7 +120,7 @@ Button {
 }
 
 textArea+Button:hover {
-    transform:  scale(1.1);
+    transform: scale(1.1);
     background-color: #45a049;
 }
 
@@ -130,12 +135,12 @@ textArea+Button:hover {
 
 
 footer {
-    font-family: 'Roboto Mono', monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 8vh;
     width: 100vw;
     background-color: #19A7CE;
     font-size: 13px;
-    margin-top: 26px;
+    margin-top: 20px;
     align-items: center;
     display: flex;
 }
