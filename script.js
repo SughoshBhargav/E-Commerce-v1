@@ -11,10 +11,9 @@ function sendEmail() {
   setTimeout(function () {
     document.getElementById("successContainer").style.display = "block";
   }, 1000);
-
-
 }
 
 function closeSuccessMessage() {
   document.getElementById("successContainer").style.display = "none";
 }
+
