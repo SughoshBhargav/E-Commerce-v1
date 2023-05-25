@@ -39,7 +39,7 @@ nav ul li a {
     padding: 8px;
 }
 
-
+.avctive-page,
 nav ul li a:hover {
     transition-duration: 200ms;
     color: rgb(233, 228, 243);
@@ -88,7 +88,7 @@ a:active {
     background-size: 45%;
     background-color: #fdfdfd;
     overflow: hidden;
-    padding: 40px 0;
+    padding: 52px 0;
 }
 
 .inner-container {
@@ -162,8 +162,11 @@ img {
     margin-top: 0;
 }
 
+
+
+
 main {
-    padding: 20px;
+    padding: 20px 20px;
     margin-bottom: 105px;
 }
 

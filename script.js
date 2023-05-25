@@ -16,4 +16,3 @@ function sendEmail() {
 function closeSuccessMessage() {
   document.getElementById("successContainer").style.display = "none";
 }
-
